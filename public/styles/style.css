@@ -1,2 +1,12 @@
+* {
+    background-color: #4da2a9;
+    font-family: "Bai Jamjuree", serif;;
+}
 
-  
+.text-primary {
+    color: #F6F4F0 !important;
+}
+
+.bg-primary {
+    background-color:#2E5077 !important;
+}
