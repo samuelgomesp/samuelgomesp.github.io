@@ -3,10 +3,20 @@
     font-family: "Bai Jamjuree", serif;;
 }
 
+svg {
+    width: 3.2rem;
+    height: 2.2rem;
+    background-color: inherit;
+}
+
 .text-primary {
     color: #F6F4F0 !important;
 }
 
 .bg-primary {
     background-color:#2E5077 !important;
+}
+
+.bg-secondary {
+    background-color: #79D7BE !important;
 }
