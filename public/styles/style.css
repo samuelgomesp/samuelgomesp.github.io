@@ -1,6 +1,7 @@
 * {
     background-color: #4da2a9;
-    font-family: "Bai Jamjuree", serif;;
+    font-family: "Bai Jamjuree", serif;
+    ;
 }
 
 #icon {
@@ -9,12 +10,37 @@
     background-color: inherit;
 }
 
+#tecnologies {
+    overflow: hidden;
+}
+
+#icons-tecnologies {
+    display: inline-flex;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 100%;
+    animation: scroll-left 10s linear infinite;
+}
+
+#icons-tecnologies svg {
+    margin-left: 16rem;
+}
+
+@keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
 .text-primary {
     color: #F6F4F0 !important;
 }
 
 .bg-primary {
-    background-color:#2E5077 !important;
+    background-color: #2E5077 !important;
 }
 
 .bg-secondary {
@@ -131,7 +157,7 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        padding: 0.6rem 0 !important ;
+        padding: 0.6rem 0 !important;
     }
 
     #item-navbar {
@@ -177,7 +203,7 @@
     #container-title-contacts {
         width: 50%;
         border-radius: 0 3rem 3rem 0;
-        
+
     }
 
     #project {
@@ -185,11 +211,12 @@
     }
 
     #title-description-project {
-        font-size: 1.8rem !important;;
+        font-size: 1.8rem !important;
+        ;
     }
 
     #description-project {
         font-size: 1.2rem !important;
     }
-    
+
 }
