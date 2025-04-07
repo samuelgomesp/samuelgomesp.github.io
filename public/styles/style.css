@@ -167,5 +167,16 @@
         font-size: medium !important;
         font-weight: 400;
     }
+
+    #container-title-projects {
+        width: 50%;
+        border-radius: 0 3rem 3rem 0;
+    }
+
+    #container-title-contacts {
+        width: 50%;
+        border-radius: 3rem 0 0 3rem;
+        margin-left: auto;
+    }
     
 }
