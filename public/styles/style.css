@@ -178,5 +178,17 @@
         border-radius: 3rem 0 0 3rem;
         margin-left: auto;
     }
+
+    #project {
+        max-height: auto !important;
+    }
+
+    #title-description-project {
+        font-size: 30px !important;;
+    }
+
+    #description-project {
+        font-size: 20px !important;
+    }
     
 }
